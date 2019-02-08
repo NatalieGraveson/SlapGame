@@ -1,1 +1,6 @@
 /*Only use this file if you want to override bootstrap or create your own style*/
+.regina {
+  height: 500px;
+  width: 400px;
+  align-content: center;
+}

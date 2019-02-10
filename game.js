@@ -2,6 +2,7 @@ let target = {
   name: "Regina",
   health: 100,
   hits: 0,
+  img: ['./assets/fancy-cat.jpg', './assets/angry-cat.jpg', './assets/ran-away-cat.jpg'],
   items: {
     sweats: 3,
     pink: 5,
@@ -42,4 +43,5 @@ function update() {
 
 
 
-//function draw()
+//function draw() {
+//document.getElementById('fancy-cat').src = cats[activeCatIndex].moodImgs[cats[activeCatIndex].moodIndex]

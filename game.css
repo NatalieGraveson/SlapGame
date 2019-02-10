@@ -1,4 +1,4 @@
-/*Only use this file if you want to override bootstrap or create your own style*/
+
 .regina {
   display:flex;
   height: 500px;
@@ -13,7 +13,7 @@
 display: flex;
 align-items: center;
 justify-content: center;   
-padding-top: 209px;
+padding-top: 148px;
 
 }
 
@@ -39,4 +39,21 @@ body {
   justify-content: center;
   font-weight: bold;
   font-size: 50px;
+}
+.top {
+padding-top: 124px;
+text-align: center;
+}
+.middle {
+padding-top: 58px;
+text-align: center;
+}
+.bottom {
+padding-top: 184px;
+text-align: center;
+}
+h1 {
+  font-weight: bold;
+  font-size: 70px;
+  color:#f45073;
 }

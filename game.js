@@ -1,30 +1,42 @@
-let health = 100;
-let gameover = 0;
-
-
+let target = {
+  name: "Regina",
+  health: 100,
+  hits: 0,
+  items: {
+    sweats: 3,
+    pink: 5,
+    shopping: 10
+  },
+  attacks: {
+    kalteen: 1,
+    cream: 5,
+    bus: 25
+  }
+}
 
 function attack(damagemethod) {
-  health -= (damagemethod);
+  target.health -= (target.attacks[`${damagemethod}`]);
   update()
 }
+
 function items(improvehealth) {
-  health += (improvehealth);
+  target.health += (target.items[`${improvehealth}`]);
   update()
 
 }
 
 function reset() {
-  health = 100;
+  target.health = 100;
   update()
 }
 
 function update() {
-  if (health < 0) {
-    health = 0
-  } else if (health > 100) {
-    health = 100
+  if (target.health < 0) {
+    target.health = 0
+  } else if (target.health > 100) {
+    target.health = 100
   }
-  document.getElementById('health').innerText = health
+  document.getElementById('health').innerText = target.health.toString();
 }
   //draw()
 

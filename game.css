@@ -1,18 +1,42 @@
 /*Only use this file if you want to override bootstrap or create your own style*/
 .regina {
+  display:flex;
   height: 500px;
   width: 400px;
  border-radius: 82px;
- border: 14px solid #0c070780;
+ border: 14px solid #f45073;
  
 
 }
 
 .regina-container{
-  display: flex;
-justify-content: center;
+display: flex;
+align-items: center;
+justify-content: center;   
+padding-top: 209px;
+
 }
 
 body {
   background-color: black;
+}
+.burnbook {
+  max-height: 100vh;
+}
+#health {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+#healthone {
+  display: flex;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 50px;
 }

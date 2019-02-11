@@ -65,7 +65,7 @@ function update() {
   } else if (target.health > 100) {
     target.health = 100
   }
-  document.getElementById('health').innerText = target.health.toString();
+  document.getElementById('health').innerText = target.health;
 }
 
 

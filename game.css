@@ -42,21 +42,38 @@ body {
   justify-content: center;
   font-weight: bold;
   font-size: 50px;
+ font-family: 'Kalam', cursive;
+
 }
 .top {
 padding-top: 124px;
 text-align: center;
+font-family: 'Kalam', cursive;
+
 }
 .middle {
 padding-top: 58px;
 text-align: center;
+font-family: 'Kalam', cursive;
+
 }
 .bottom {
 padding-top: 184px;
 text-align: center;
+font-family: 'Kalam', cursive;
+
 }
 h1 {
   font-weight: bold;
   font-size: 70px;
   color:#f45073;
+  font-family: 'Kalam', cursive;
+
+}
+h2 {
+  color: #f45073;
+  text-align: center;
+  font-family: 'Kalam', cursive;
+  font-size: 79px;
+
 }

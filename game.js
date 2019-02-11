@@ -11,7 +11,7 @@ let target = {
   attacks: {
     kalteen: 1,
     cream: 5,
-    bus: 25
+    bus: 20
   }
 }
 
@@ -54,12 +54,14 @@ function items(improvehealth) {
 function reset() {
   target.health = 100;
   changePicture(3)
+  document.getElementById('burned').innerText = ' '
   update()
 }
 
 function update() {
-  if (target.health < 0) {
+  if (target.health <= 0) {
     target.health = 0
+    document.getElementById('burned').innerText = 'Regina has been "burned" '
   } else if (target.health > 100) {
     target.health = 100
   }
